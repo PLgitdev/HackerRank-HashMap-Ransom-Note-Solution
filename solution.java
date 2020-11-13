@@ -19,3 +19,4 @@
         String result = map.isEmpty() ? "Yes" : "No";
         System.out.println(result);
     }
+}
