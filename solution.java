@@ -1,5 +1,5 @@
- static void checkMagazine(String[] magazine, String[] note) {
-        HashMap<String, Integer> map = new HashMap<>();
+static void checkMagazine(String[] magazine, String[] note) {
+    HashMap<String, Integer> map = new HashMap<>()
         for(String i : note) {
             if(map.containsKey(i)) {
                 int value = map.get(i);
